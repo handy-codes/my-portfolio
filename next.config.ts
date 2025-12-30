@@ -1,4 +1,4 @@
-// next.config.ts here
+// next.config.ts here and there
 
 import type { NextConfig } from "next";
 
