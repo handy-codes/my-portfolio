@@ -42,8 +42,8 @@ const Layout: React.FC = () => {
                             src="/assets/pic.jpeg"
                             alt="profile"
                             width={300}
-                            height={100}
-                            className="rounded-full border border-blue-500/30 hover:scale-110 transition-transform duration-300 overflow-hidden"
+                            height={300}
+                            className="h-[300px] w-[300px] object-cover rounded-full border border-blue-500/30 hover:scale-110 transition-transform duration-300 overflow-hidden"
                          />
                     </div>
                 </motion.div>
