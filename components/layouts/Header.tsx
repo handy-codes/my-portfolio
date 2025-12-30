@@ -36,7 +36,7 @@ const Header: React.FC = () => {
           </Link>
 
           {/* Desktop Navigation - Hidden on mobile */}
-          <nav className="hidden md:flex space-x-6 font-semibold">
+          <nav className="hidden sm:flex space-x-6 font-semibold">
             {navItems.map((item) => (
               <Link 
                 key={item.href} 
@@ -49,13 +49,13 @@ const Header: React.FC = () => {
           </nav>
 
           {/* Desktop Button - Hidden on mobile */}
-          <button className="hidden md:block bg-blue-500 py-2 px-5 rounded-full text-white hover:scale-105 transition">
+          <button className="hidden sm:block bg-blue-500 py-2 px-5 rounded-full text-white hover:scale-105 transition">
             Let's Talk
           </button>
 
           {/* Mobile Hamburger Menu - Visible only on mobile */}
           <button 
-            className="md:hidden text-3xl focus:outline-none"
+            className="sm:hidden text-3xl focus:outline-none"
             onClick={toggleMenu}
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           >
